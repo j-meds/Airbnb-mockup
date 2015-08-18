@@ -1,0 +1,125 @@
+
+
+
+
+#heading{
+	background:url( "http://www.andysaiden.com/wp-content/uploads/2012/12/Dark-Lake.jpg");
+	background-repeat: no-repeat;
+	width:100%;
+	height: 600px;
+	background-position: center;
+}
+#logo{
+	position: relative;
+    right: 20px;
+}
+.links{
+	color: white;
+    position: relative;
+    top: 41px;
+    font-weight: bold;
+    font-size:12px;
+}
+#listbutton{
+	background-color: #009AAB;
+	color:white;
+	border-radius: 2px;
+	border-bottom: solid 2px #005159;
+}
+h1{
+	color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+#head{
+	color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+hr { 
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+h2{
+	color: #565A5C;
+	font-size:32px;
+	font-weight: bolder;
+	text-align: center;
+}
+h4{
+	font-weight: bold;
+	color: white;
+    font-size: 18px;
+}
+p{
+	color: #565A5C;
+	font-size:16px;
+	text-align: center;
+}
+#headerbutton{
+	font-weight: bold;
+	margin-top: 13px;
+	border-color: #565a5c;
+    color: #fff;
+   padding: 9px 27px;
+   font-size: 16px;
+   background: rgba(255,255,255,0.4);
+   border-style: none;
+}
+a#headerbutton:hover{
+	background-color: rgba(0,0,0,.4);
+}
+#headerbottom{ 
+    background-color: rgba(0,0,0,0.6);
+    height: 104px;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    right: 0;
+    margin-top: 144px;
+}
+.nopadding{
+	padding-right: 0;
+    padding-left: 0;
+}
+#input1{
+	font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    height: 43px;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #c4c4c4;
+}
+.midinput{
+	font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    height: 43px;
+    border-radius: 0px;
+    border:none;
+    border-right: 1px solid #c4c4c4;
+}
+#lastinput{
+	font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    height: 43px;
+    border-radius: 0px;
+    border:none;
+    border-bottom:solid 1px red;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) { 
+h1{
+	color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+ }
